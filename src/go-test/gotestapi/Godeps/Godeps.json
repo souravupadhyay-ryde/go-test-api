@@ -1,0 +1,11 @@
+{
+	"ImportPath": "go-test/gotestapi",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/souravupadhyay-ryde/go-test-models",
+			"Rev": "cb805189d4b151b8402e786aff464ed2caff6db3"
+		}
+	]
+}
