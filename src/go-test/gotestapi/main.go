@@ -2,12 +2,12 @@ package main
 
 import (
   "fmt"
-  "bitbucket.org/ryde/go-test-models.git"
+  "github.com/souravupadhyay-ryde/go-test-models"
 )
 
 func main() {
   fmt.Println("Starting up...")
-  user := gotestmodels.User.NewUser("Sourav Upadhyay", "souravupadhyay", "sourav")
+  user := gotestmodels.NewUser("Sourav Upadhyay", "souravupadhyay", "sourav")
   fmt.Println(user)
 }
 
